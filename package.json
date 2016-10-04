@@ -1,0 +1,29 @@
+{
+  "name": "hapi-quick-api-mongoose",
+  "version": "0.1.0",
+  "description": "Quick Hapijs REST APIs with mixed Mongoose Schema and Joi",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajpatel/hapi-quick-api-mongoose.git"
+  },
+  "keywords": [
+    "hapi",
+    "REST",
+    "api",
+    "joi",
+    "mongoose"
+  ],
+  "author": "Pankaj Patel <patel.pankaj@live.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pankajpatel/hapi-quick-api-mongoose/issues"
+  },
+  "homepage": "https://github.com/pankajpatel/hapi-quick-api-mongoose#readme",
+  "dependencies": {
+    "get-it-ready": "^0.1.3",
+    "hapi": "^15.1.1",
+    "joi": "^9.1.0",
+    "mongoose": "^4.6.2"
+  }
+}
