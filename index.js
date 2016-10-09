@@ -4,7 +4,7 @@ var Plugin = {};
 Plugin.register = function(server, options, next) {
   options.models.map(function(model, index){
     var plugin = {};
-    var ingredients = getItReady(model.definition, model.name.toLowerCase() + 's', model.name , model.name.toLowerCase());
+    var ingredients = getItReady(model.definition, model.name.toLowerCase() + 's', model.name , model.name.toLowerCase(), options.connection);
     plugin.register = function(server, options, next) {
       server.route( ingredients.routes );
       server.app.models[model.name] = ingredients.model;

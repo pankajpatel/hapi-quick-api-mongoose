@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/pankajpatel/hapi-quick-api-mongoose#readme",
   "dependencies": {
-    "get-it-ready": "^0.1.3"
+    "get-it-ready": "^0.1.4"
   }
 }
