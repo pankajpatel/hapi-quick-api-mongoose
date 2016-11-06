@@ -21,7 +21,7 @@ Plugin.register = function(server, options, next) {
 };
 
 Plugin.register.attributes = {
-  name : pachage.name,
+  name : package.name,
   version : package.version
 };
 
