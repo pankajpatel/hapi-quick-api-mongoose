@@ -1,3 +1,4 @@
+var package = require('./package');
 var getItReady = require('get-it-ready');
 
 var Plugin = {};
@@ -16,10 +17,12 @@ Plugin.register = function(server, options, next) {
     }
     server.register({register: plugin});
   })
+  next();
 };
 
 Plugin.register.attributes = {
-  name : 'hapi-quick-api-mongoose',
-  version : '0.1.0'
+  name : pachage.name,
+  version : package.version
 };
+
 module.exports = Plugin;
