@@ -1,6 +1,6 @@
 {
   "name": "hapi-quick-api-mongoose",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Quick Hapijs REST APIs with mixed Mongoose Schema and Joi",
   "main": "index.js",
   "repository": {
